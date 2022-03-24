@@ -2,6 +2,8 @@ import codepen from '../img/codepen.svg';
 import facebook from '../img/facebook.svg';
 import linkedin from '../img/linkedin.svg';
 import twitter from '../img/twitter.svg';
+import Card from './Card.js';
+import React from 'react';
 
 function Home() {
 
@@ -9,7 +11,7 @@ function Home() {
         <main class="mh-100">
             <div class="position-relative overflow-hidden m-auto p-4 text-center">
                 <div class="col-md-5 p-lg-5 mx-auto my-5 bg-outline-secondary text-center">
-                    <h1>Hello there. Insert content here</h1>
+                    <h1>Original Heading</h1>
 
                     <p class="lead font-weight-normal">This is a subheading. Inserting placeholder text to be changed for later (hopefully).
                     </p>
@@ -19,37 +21,11 @@ function Home() {
             </div>
 
             <div class="d-flex mh-100 p-3 flex-wrap">
-                <div class="bg-dark text-center w-50 p-5 text-light">
-                    <h3>Heading of Something</h3>
-                    <p class="lead">
-                        A subheading of something
-                    </p>
+                <Card className="bg-dark text-center w-50 p-5 text-light" heading="Placeholder Headeer" subhead="This is a subheading." />
+                <Card className="bg-secondary text-center w-50 p-5 text-light" heading="Headinf of Something" subhead="This is a subheading." />
+                <Card className="bg-light text-center w-50 p-5 text-dark" heading="Headinf of Something" subhead="This is a subheading." />
+                <Card className="bg-white text-center w-50 p-5 text-dark" heading="Headinf of Something" subhead="This is a subheading." />
 
-                </div>
-
-                <div class="bg-secondary text-center w-50 p-5 text-light">
-                    <h3>Heading of Something</h3>
-                    <p class="lead">
-                        A subheading of something
-                    </p>
-
-                </div>
-
-                <div class="bg-light text-center w-50 p-5 text-dark">
-                    <h3>Heading of Something</h3>
-                    <p class="lead">
-                        A subheading of something
-                    </p>
-
-                </div>
-
-                <div class=" text-center w-50 p-5 text-dark">
-                    <h3>Heading of Something</h3>
-                    <p class="lead">
-                        A subheading of something
-                    </p>
-
-                </div>
 
             <div class="container m-auto p-5 text-center">
                 <h5 class="p-3">Follow Me! Because I'm kinda great. </h5>

@@ -2,7 +2,7 @@ function Footer() {
 
     return(
         <footer>
-            THIS IS A FOOTER.
+            <small>Copyright 2022 Elizabeth Francisco</small>
         </footer>
 
     )

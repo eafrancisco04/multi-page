@@ -2,7 +2,11 @@ function Header() {
 
     return(
         <header>
-            <nav>HEADER</nav>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </nav>
         </header>
 
     )

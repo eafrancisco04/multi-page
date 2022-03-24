@@ -7,7 +7,7 @@ function Home() {
             <h1>Hello there. Insert content here</h1>
             
 
-            <img src={picture} alt="Kaeya" />
+            {/* <img src={picture} alt="Kaeya" /> */}
         </>
 
     )

@@ -1,6 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom";
+import Home from "../pages/Home";
 import Gallery from "../pages/Gallery";
-
 
 function Header() {
 
@@ -17,7 +17,7 @@ function Header() {
             </nav>
 
             <Routes>
-                <Route path="/" element={<Gallery />} />
+                <Route path="/" element={<Home />} />
             </Routes>
         </header>
 

@@ -1,4 +1,7 @@
-import picture from '../img/kaeya.jpg';
+import codepen from '../img/codepen.svg';
+import facebook from '../img/facebook.svg';
+import linkedin from '../img/linkedin.svg';
+import twitter from '../img/twitter.svg';
 
 function Home() {
 
@@ -49,18 +52,18 @@ function Home() {
                 </div>
 
             <div class="container m-auto p-5 text-center">
-                <h5>Follow Me! Because I'm kinda great.</h5>
-                <div>
-
+                <h5>Follow Me! Because I'm kinda great. </h5>
+                <div class="d-flex m-auto w-25 justify-content-around text-center">
+                    <a href="https://facebook.com" target="_blank"><img src={ facebook } width="40" height="40" alt="facebook" /></a>
+                    <a href="https://twitter.com/home" target="_blank"><img src={ twitter } width="40" height="40" alt="twitter" /> </a>
+                    <a href="https://linkedin.com/home" target="_blank"><img src={ linkedin } width="40" height="40" alt="linkedin" /> </a>
+                    <a href="https://codepen.io" target="_blank"><img src={ codepen } width="40" height="40" alt="codepen" /> </a>
                 </div>
 
             </div>
 
 
             </div>
-
-
-            {/* <img src={picture} alt="Kaeya" /> */}
         </main>
 
     )

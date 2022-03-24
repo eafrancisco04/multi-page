@@ -1,6 +1,7 @@
-import carousel1 from '../img/jap1.jpg';
-import carousel2 from '../img/jap2.jpg';
-import carousel3 from '../img/jap3.jpg';
+import img1 from '../img/place1.jpg';
+import img2 from '../img/place2.jpg';
+import img3 from '../img/place3.jpg';
+import img4 from '../img/place4.jpg';
 
 
 function Gallery() {
@@ -15,6 +16,7 @@ function Gallery() {
                 <button class="btn btn-secondary" href="#">Testing</button>
                 
             </section>
+
 
         </main>
     )

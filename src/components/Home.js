@@ -48,7 +48,13 @@ function Home() {
 
                 </div>
 
+            <div class="container m-auto p-5 text-center">
+                <h5>Follow Me! Because I'm kinda great.</h5>
+                <div>
 
+                </div>
+
+            </div>
 
 
             </div>

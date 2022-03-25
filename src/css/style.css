@@ -1,4 +1,4 @@
 img {
-    width: 25vh !important;
-    height: 25vh !important;
+    max-width: 600px;
+    max-height: 500px;
 }

@@ -7,7 +7,7 @@ import State from './State';
 
 function Gallery() {
     return (
-        <main>
+        <main class="m-auto">
             <State />
 
         </main>

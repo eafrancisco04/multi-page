@@ -2,18 +2,17 @@ import img1 from '../img/place1.jpg';
 import img2 from '../img/place2.jpg';
 import img3 from '../img/place3.jpg';
 import img4 from '../img/place4.jpg';
-import State from './State';
 
 
-function Gallery() {
+function Images() {
     return (
-        <main>
-            <State />
+        <div>
+            <img src={img4} />
 
-        </main>
+        </div>
     )
 
 }
 
 
-export default Gallery;
+export default Images;

@@ -1,7 +1,7 @@
 function Contact() {
     return (
-        <main class="container-fluid m-auto p-5 w-75 h-100 d-flex align-center">
-            <div class="p-5 h-100 text-center bg-secondary">
+        <main class="container-fluid m-auto p-5 w-75 h-100 d-flex align-center flex-wrap">
+            <div class="p-5 w-50 text-center bg-dark text-light">
                 <h3>Contact info</h3>
                 <p>Get in touch with me for something.</p>
 
@@ -15,19 +15,19 @@ function Contact() {
                 <p>Mon - Friday. 9am - 6pm</p>
             </div>
             
-            <form class="row p-5 h-100 bg-warning" id="register-form">
+            <form class="row w-50 p-5 bg-info" id="register-form">
                 <h2>Register form</h2>
                 <div class="col-ms-6">
                     <label for="register-firstName" class="form-label">Name</label>
                     <input type="text" class="form-control" />
                 </div>
             
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <label for="register-email" class="form-label">Email</label>
                     <input type="email" class="form-control" />
                 </div>
 
-                <div class="col-3">
+                <div class="col-6">
                     <label for="register-firstName" class="form-label">Contact Number</label>
                     <input type="text" class="form-control" />
                 </div>

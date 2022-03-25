@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "../pages/Home";
 import Gallery from "../pages/Gallery";
+import Contact from "../pages/Contact";
 
 function Header() {
 
@@ -19,6 +20,7 @@ function Header() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/gallery" element={<Gallery />} />
+                <Route path="/contacts" element={<Contact />} />
             </Routes>
         </header>
 

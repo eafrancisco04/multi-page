@@ -1,3 +1,5 @@
+import img1 from '../img/place1.jpg';
+
 function Card(props) {
 
     return(
@@ -6,6 +8,10 @@ function Card(props) {
                     <p class="lead">
                         {props.subhead}
                     </p>
+                    <div class="container h-100 w-50">
+                            Insert a description of something that you want to feature on this part. It can be an image too or whatever you want.
+                    </div>
+                    
 
         </div>
     )

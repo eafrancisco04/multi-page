@@ -12,9 +12,9 @@ function Home() {
         <main class="mh-100">
             <div class="position-relative overflow-hidden m-auto p-4 text-center">
                 <div class="col-md-5 p-lg-5 mx-auto my-5 bg-outline-secondary text-center">
-                    <h1>Original Heading</h1>
+                    <h1>Welcome to My Sample Website</h1>
 
-                    <p class="lead font-weight-normal">This is a subheading. Inserting placeholder text to be changed for later (hopefully).
+                    <p class="lead font-weight-normal">This is a subheading. This is just a simple multi-page museum/gallery website made using React and styled with Boostrap.
                     </p>
 
                     <a class="btn btn-outline-secondary" href="#">Nothing here</a>
@@ -22,10 +22,10 @@ function Home() {
             </div>
 
             <div class="d-flex mh-100 p-3 flex-wrap">
-                <Card className="bg-dark text-center w-50 p-5 text-light" heading="Placeholder Headeer" subhead="This is a subheading." />
-                <Card className="bg-secondary text-center w-50 p-5 text-light" heading="Headinf of Something" subhead="This is a subheading." />
-                <Card className="bg-light text-center w-50 p-5 text-dark" heading="Headinf of Something" subhead="This is a subheading." />
-                <Card className="bg-white text-center w-50 p-5 text-dark" heading="Headinf of Something" subhead="This is a subheading." />
+                <Card className="bg-dark text-center w-50 p-5 text-light" heading="Placeholder Header" subhead="This is a subheading." />
+                <Card className="bg-secondary text-center w-50 p-5 text-light" heading="Another Header" subhead="With another subheading." />
+                <Card className="bg-light text-center w-50 p-5 text-dark" heading="Heading of Something" subhead="A subheading of something." />
+                <Card className="bg-white text-center w-50 p-5 text-dark" heading="Fourth Header" subhead="Fourth subheading because it's nicer." />
 
 
             <div class="container m-auto p-5 text-center">

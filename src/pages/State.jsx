@@ -22,7 +22,7 @@ function State() {
     <main class={design}>
         <section class="p-5 text-center">
                 <h2>Gallery</h2>
-                <p class="lead">This is the gallery page. Insert placeholder text that is not lorem ipsum.</p>
+                <p class="lead">This is the gallery page. Don't like white backgrounds? Click on the toggle below to change to dark mode.</p>
 
                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <button onClick={handleClick} class={btn1}>

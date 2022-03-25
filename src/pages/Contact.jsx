@@ -16,7 +16,7 @@ function Contact() {
             </div>
             
             <form class="row w-50 p-5 bg-info" id="register-form">
-                <h2>Register form</h2>
+                <h2>Send Me a Message!</h2>
                 <div class="col-ms-6">
                     <label for="register-firstName" class="form-label">Name</label>
                     <input type="text" class="form-control" />

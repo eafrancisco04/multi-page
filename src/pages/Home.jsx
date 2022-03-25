@@ -4,6 +4,7 @@ import linkedin from '../img/linkedin.svg';
 import twitter from '../img/twitter.svg';
 import Card from '../components/Card';
 import React from 'react';
+import State from '../pages/State';
 
 function Home() {
 

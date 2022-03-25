@@ -4,7 +4,7 @@ function Card(props) {
         <div class={props.className}>
                     <h3>{props.heading}</h3>
                     <p class="lead">
-                        {props.subheading}
+                        {props.subhead}
                     </p>
 
         </div>

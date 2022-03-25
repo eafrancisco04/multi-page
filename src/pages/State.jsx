@@ -2,21 +2,19 @@ import { useState } from "react";
 import Images from '../components/Images';
 
 function State() {
-    //let name = "Will";
-    const [name, setName] = useState("Ea Francisco");
-    const [design, setDesign] = useState("bg-light text-dark");
+    const [design, setDesign] = useState("bg-light text-dark m-0 p-5");
 
     const handleClick= () => {
-        setDesign("bg-dark text-light");
+        setDesign("bg-dark text-light m-0 p-5");
     };
     
     const handleLight= () => {
-        setDesign("bg-light text-dark");
+        setDesign("bg-light text-dark text-center m-0 p-5");
     }
 
     return (
     <main class={design}>
-        <section class="m-5 p-5 text-center">
+        <section class="p-5 text-center">
                 <h2>Gallery</h2>
                 <p class="lead">This is the gallery page. Insert placeholder text that is not lorem ipsum.</p>
 

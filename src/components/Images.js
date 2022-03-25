@@ -7,7 +7,7 @@ import img4 from '../img/place4.jpg';
 function Images() {
     return (
         <div>
-            <img src={img4} />
+            
 
         </div>
     )
